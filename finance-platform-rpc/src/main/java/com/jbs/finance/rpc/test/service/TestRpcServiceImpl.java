@@ -4,6 +4,7 @@ package com.jbs.finance.rpc.test.service;
 import com.jbs.finance.rpc.test.TestRpcService;
 import com.jbs.finance.soa.api.User;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 */
 /**
@@ -12,7 +13,8 @@ import org.springframework.stereotype.Component;
  * @description:
  *//*
 
-@Component
+
+@Service
 public class TestRpcServiceImpl implements TestRpcService {
     public String test(String s) {
         return "error";

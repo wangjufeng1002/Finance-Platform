@@ -69,19 +69,19 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
             <version>${latest.version}</version>
-           <!-- <exclusions>
+            <exclusions>
                 <exclusion>
                     <artifactId>nacos-client</artifactId>
                     <groupId>com.alibaba.nacos</groupId>
                 </exclusion>
-            </exclusions>-->
+            </exclusions>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
             <version>${latest.version}</version>
-           <!--<exclusions>
+           <exclusions>
                 <exclusion>
                     <artifactId>guava</artifactId>
                     <groupId>com.google.guava</groupId>
@@ -94,7 +94,7 @@
                     <artifactId>httpclient</artifactId>
                     <groupId>org.apache.httpcomponents</groupId>
                 </exclusion>
-            </exclusions>-->
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -152,13 +152,13 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <dependency>
+      <!--  <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-dependencies</artifactId>
             <version>${spring-cloud.version}</version>
             <type>pom</type>
             <scope>import</scope>
-        </dependency>
+        </dependency>-->
         <!-- Spring Cloud End -->
 
         <dependency>

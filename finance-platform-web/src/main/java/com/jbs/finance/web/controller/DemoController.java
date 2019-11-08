@@ -1,6 +1,7 @@
 package com.jbs.finance.web.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * @created by wjf
@@ -10,15 +11,15 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class DemoController {
 
-  /*  @Autowired(required = false)
-    private TestRpcService testRpcService;
+//    @Resource
+//    private TestService testService;
 
-    @RequestMapping("/test")
+    @RequestMapping("test")
     public String test() {
-        return testRpcService.test("aaa");
+        return "aaa";
     }
 
-    @RequestMapping("/user")
+   /* @RequestMapping("/user")
     @ResponseBody
     public User user() {
         User user = new User();
